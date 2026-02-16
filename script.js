@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://myproject-backend-oc6r.onrender.com";
 
 async function getMessage() {
     const res = await fetch(`${BACKEND_URL}/api/`);
